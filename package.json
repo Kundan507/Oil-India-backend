@@ -4,9 +4,11 @@
   "description": "Backend API for Oil India Infrastructure Progress Tracking System",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js",
-    "seed": "node db/seed.js"
+  "start": "node server.js",
+  "dev": "node --watch server.js",
+  "seed": "node db/seed.js",
+  "build": "npm rebuild better-sqlite3"
+
   },
   "dependencies": {
     "express": "^4.19.2",
